@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
       libdbi0-dev \
       libesmtp-dev \
       libganglia1-dev \
-      libgcrypt11-dev \
+      libgcrypt20-dev \
       libglib2.0-dev \
       libhiredis-dev \
       libltdl-dev \
@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y \
       libmemcached-dev \
       libmnl-dev \
       libmodbus-dev \
-      libmysqlclient-dev \
+      default-libmysqlclient-dev \
       libopenipmi-dev \
       liboping-dev \
       libow-dev \
